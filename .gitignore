@@ -1,0 +1,15 @@
+# 构建产物
+out/
+test/classes/
+*.apk
+*.idsig
+
+# 编辑器 / 环境
+.idea/
+*.iml
+.gradle/
+local.properties
+.DS_Store
+
+# 侦察用：第三方反编译源码与 API 快照，不进仓库
+ref/
