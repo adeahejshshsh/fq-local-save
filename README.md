@@ -1,5 +1,12 @@
 # 番茄本地下载（fq-local-save）
 
+[![build](https://github.com/adeahejshshsh/fq-local-save/actions/workflows/build.yml/badge.svg)](https://github.com/adeahejshshsh/fq-local-save/actions/workflows/build.yml)
+[![release](https://img.shields.io/github/v/release/adeahejshshsh/fq-local-save)](https://github.com/adeahejshshsh/fq-local-save/releases/latest)
+
+> **下载 APK** → [最新 Release](https://github.com/adeahejshshsh/fq-local-save/releases/latest)
+> **自己编译** → `bash build.sh`（无 Gradle，见 [第八节](#八自己构建)）
+> **跑测试** → `bash test/run.sh`（纯 JVM，不需要真机）
+
 番茄免费小说（`com.dragon.read`）的 **LSPosed 模块**：在阅读页宿主「下载」按钮旁边，
 多出一个 **「⬇存本地」** 按钮，点一下就把**当前这本书连同插图**导出到本地：
 
